@@ -1,0 +1,113 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: #6a0dad;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .intro img {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .skills,
+    .projects,
+    .recommendations,
+    .form-section {
+      padding: 40px 20px;
+    }
+
+    .skills h2,
+    .projects h2,
+    .recommendations h2,
+    .form-section h2 {
+      color: #6a0dad;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .skill-cards,
+    .recommendation-cards,
+    .project-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card,
+    .project-card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      background-color: #f9f9f9;
+      text-align: left;
+    }
+
+    .project-card strong {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    .form-section {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .form-section input,
+    .form-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: inherit;
+      font-size: 1em;
+    }
+
+    .form-section button {
+      padding: 10px 20px;
+      background-color: #6a0dad;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+      border-top: 1px solid #ddd;
+      margin-top: 40px;
+    }

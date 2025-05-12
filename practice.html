@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aziel's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa; /* Light background color */
+  font-family: Arial, sans-serif;
+}
+
+.left {
+  flex: 1;
+  text-align: center;
+}
+
+.right {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .intro img {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .skills,
+    .projects,
+    .recommendations,
+    .form-section {
+      padding: 40px 20px;
+    }
+
+    .skills h2,
+    .projects h2,
+    .recommendations h2,
+    .form-section h2 {
+      color: #6a0dad;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .skill-cards,
+    .recommendation-cards,
+    .project-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card,
+    .project-card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      background-color: #f9f9f9;
+      text-align: left;
+    }
+
+    .project-card strong {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    .form-section {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .form-section input,
+    .form-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: inherit;
+      font-size: 1em;
+    }
+
+    .form-section button {
+      padding: 10px 20px;
+      background-color: #6a0dad;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+      border-top: 1px solid #ddd;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+ <header class="header">
+  <div class="left">Aziel Azri</div>
+  <div class="center">email.gmail</div>
+  <div class="right">Contact</div>
+  <nav>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#recommendations">Recommendations</a>
+  </nav>
+</header>
+
+<section class="intro">
+  <img src="profile.jpg" alt="Aziel's photo">
+  <p>Hello! I'm Aziel, a full-stack web developer passionate about building responsive and dynamic web applications.</p>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <div class="skill-cards">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">React</div>
+    <div class="card">Node.js</div>
+    <div class="card">MongoDB</div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+  <div class="project-list">
+    <div class="project-card">
+      <strong>E-commerce Website</strong>
+      Developed an e-commerce website for a brand using full stack.
+    </div>
+    <div class="project-card">
+      <strong>Education Website</strong>
+      Developed an educational website for a university.
+    </div>
+    <div class="project-card">
+      <strong>App Development</strong>
+      Developed a web-based app for an organization.
+    </div>
+  </div>
+</section>
+
+<section id="recommendations" class="recommendations">
+  <h2>Recommendations</h2>
+  <div class="recommendation-cards">
+    <div class="card">
+      <ul>
+        <li>Aziel is a quick learner who picks up web development concepts with ease.</li>
+        <li>He brings a positive attitude, asks the right questions, and works well in a team.</li>
+        <li>Aziel shows strong initiative and potential to lead.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <ul>
+        <li>Working with Aziel has been a great experience.</li>
+        <li>He is skilled, dependable, and pays attention to detail.</li>
+        <li>I would love to work with him again in the future.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <ul>
+        <li>Aziel collaborated on an early-stage project showing deep technical knowledge.</li>
+        <li>He is a committed team player with a great attitude.</li>
+        <li>He would be an asset to any organization.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="form-section">
+  <h2>Leave a Recommendation</h2>
+  <form>
+    <input type="text" placeholder="Name (Optional)">
+    <textarea placeholder="Message" rows="5"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Aziel Azri. All rights reserved.
+</footer>
+
+</body>
+</html>
